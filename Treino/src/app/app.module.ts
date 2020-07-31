@@ -7,6 +7,8 @@ import { PortifolioComponent } from './portifolio/portifolio.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { DISCComponent } from './perfil-disc/perfil-disc.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { routing } from './app.routing';
+
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     SideBarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
+
   ],
   providers: [],
   bootstrap: [AppComponent]
