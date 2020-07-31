@@ -3,9 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent }  from './home/home.component';
-import { PortifolioComponent } from './Portifolio/Portifolio.component';
-import { HobbiesComponent } from './Hobbies/Hobbies.component';
-import { DISCComponent } from './PerfilDISC/PerfilDisc.component';
+import { PortifolioComponent } from './Portifolio/portifolio.component';
+import { HobbiesComponent } from './Hobbies/hobbies.component';
+import { DISCComponent } from './PerfilDISC/perfilDisc.component';
+import { SideBarComponent } from './Side-bar/side-bar.component';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import { DISCComponent } from './PerfilDISC/PerfilDisc.component';
     HomeComponent,
     PortifolioComponent,
     HobbiesComponent,
-    DISCComponent
+    DISCComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule
