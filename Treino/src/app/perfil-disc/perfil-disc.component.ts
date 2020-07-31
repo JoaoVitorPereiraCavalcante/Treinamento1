@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'disc',
-  templateUrl: './perfilDisc.component.html',
-  styleUrls: ['./perfilDisc.component.css']
+  templateUrl: './perfil-disc.component.html',
+  styleUrls: ['./perfil-disc.component.css']
 })
 export class DISCComponent {
   title = 'Treino';
